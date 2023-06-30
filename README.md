@@ -1,7 +1,29 @@
 # Cadence NatureDSP Library for ConnX 110 DSP cores
 
 <p>This NatureDSP Library for ConnX 110 DSP contains various optimized general purpose signal processing routines.</p>
-
+ <h1> Version: v1.1.0 </h1>
+<p> This patch release contains following changes compared to the previous release v1.0.0:</p>
+  <h3> Changes:</h3>
+        <p>
+        <ol>
+        <li>Replaced first step of Newton-Raphson based single precision floating point reciprocal
+  operation & other sequence of instructions with a direct RECIP proto.</li>
+        <li>Updated the code to use Quadratic Lagrange Interpolation(QLI) based single precision
+  floating point reciprocal operation where ever applicable.</li>
+        </ol>
+        </p>
+        <h3>Details:</h3>
+       <p>
+       <ol>
+      <li>This version of library has been tested with RI-2023.11 Xtensa tools.</li>
+      </ol>
+      </p>
+<h3> Known issues:</h3>
+     <p>
+     <ol>
+    <li> None</li>
+     </ol>
+     </p>
 <h1> Version: v1.0.0 </h1>
 <p> 
 <ol><li>This is the first version of the NatureDSP library on ConnX 110 DSP.</li>
