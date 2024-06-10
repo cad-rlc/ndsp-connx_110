@@ -1,6 +1,25 @@
 # Cadence NatureDSP Library for ConnX 110 DSP cores
 
 <p>This NatureDSP Library for ConnX 110 DSP contains various optimized general purpose signal processing routines.</p>
+ <h1> Version: v2.0.0 </h1>
+<p> This is an early access (v2.0.0) of NatureDSP library for ConnX 110 DSP.
+This version of library has been tested with RJ-2024.3 Xtensa tools.
+
+This release contains following changes when compared to the previous release v1.1.0:</p>
+  <h3> Changes:</h3>
+        <p>
+        <ol>
+        <li>single precision floating point streaming eigen APIs are added
+</li>
+        <li>xt-clang LLVM15 migration related changes and fixes</li>
+        </ol>
+        </p>
+<h3> Known issues:</h3>
+     <p>
+     <ol>
+    <li>Performance of some functions may need further tuning for RJ-2024.3 tools</li>
+     </ol>
+     </p>
  <h1> Version: v1.1.0 </h1>
 <p> This patch release contains following changes compared to the previous release v1.0.0:</p>
   <h3> Changes:</h3>
